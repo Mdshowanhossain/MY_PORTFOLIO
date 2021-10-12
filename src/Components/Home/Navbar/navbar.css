@@ -1,6 +1,7 @@
 header {
   background-color: var(--dark);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%); */
+  height: 45rem;
 }
 
 header nav .left_side a {
@@ -18,7 +19,8 @@ header nav {
   padding: 2rem 0;
 }
 header nav .logo {
-  margin-right: 3rem;
+  margin-right: 8rem;
+  color: var(--pure);
 }
 header nav .logo a {
 }
@@ -83,4 +85,8 @@ header nav .logo a {
   color: var(--primary);
   display: flex;
   align-items: center;
+}
+.center {
+  /* text-align: center; */
+  margin-left: 10rem;
 }

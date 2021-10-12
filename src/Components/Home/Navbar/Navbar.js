@@ -10,7 +10,8 @@ const Navbar = () => {
                 <nav class="flex items-center justify-between">
                     <div class="left_side flex items-center">
                         <div class="logo">
-                            <img src="./images/logo.svg" alt="" />
+                            {/* <img src="./images/logo.svg" alt="" /> */}
+                            <h2>SOHAN</h2>
                         </div>
                         <div>
                             <a href="#">Home</a>
@@ -27,11 +28,14 @@ const Navbar = () => {
 
                 <div class="hero flex items-center justify-between">
                     <div class="left_side flex-1 flex justify-center">
-                        <img src="./images/man.png" alt="" />
+                        <img src="./images/profile.png" alt="" />
                     </div>
                     <div class="right_side flex-1">
+
+                        <h1 class="center">Hi</h1>
+
                         <h1>
-                            MOHAMMAD SOHAN
+                            I'm  Mohammad Sohan
                         </h1>
 
                         <div className="flex item-center ">

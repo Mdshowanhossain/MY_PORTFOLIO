@@ -6,6 +6,7 @@
   --pure: #ffffff;
   --ternary: #898989;
   --light: #f2f2f2;
+  --bg: #262626;
 }
 
 * {
@@ -17,13 +18,17 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--bg);
 }
 
 .container {
   max-width: 1152px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.all-container {
+  padding: 2% 10% 0px 10%;
 }

@@ -1,0 +1,66 @@
+.main_test_container {
+  text-align: center;
+}
+.wrapper_test {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: hidden; */
+}
+.testmonials_wrapper {
+  width: 800px;
+  /* text-align: center; */
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: black;
+  color: white;
+  padding: 3rem 6rem;
+  border-radius: 0.7rem;
+}
+.slider-bar {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-bar i {
+  margin-right: 2rem;
+  color: var(--dark);
+  background-color: var(--primary);
+  padding: 1rem;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid var(--dark);
+  transition: all 0.3s ease;
+}
+.slider-bar i:hover {
+  background: var(--primary);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  background: transparent;
+}
+
+/* animation */
+
+.fade-enter {
+  opacity: 0;
+  transform: scale(0.96);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: 250ms ease-in;
+  transition-property: opacity, transform;
+}
+.fade-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: scale(0.96);
+  transition: 250ms ease-in opacity;
+  transition-property: opacity, transform;
+}

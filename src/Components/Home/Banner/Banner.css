@@ -1,0 +1,23 @@
+.contact-me {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+.contact-me p {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: calibri;
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: 2rem;
+}
+
+.bg-black {
+  background: var(--dark);
+}

@@ -45,6 +45,7 @@
 }
 .section-heading {
   text-align: center;
+  font-size: 1.5rem;
 }
 .section-heading span {
   color: var(--primary);
@@ -52,4 +53,48 @@
 .section-heading + p {
   text-align: center;
   color: var(--ternary);
+}
+
+/* =========HEADING TITLE============  */
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+.section-title {
+  position: relative;
+  color: var(--dark);
+  font-size: 2.2em;
+  font-weight: 600;
+  margin-bottom: 60px;
+  /* letter-spacing: 0.5rem; */
+}
+.section-title::before {
+  content: "";
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  width: 140px;
+  height: 4px;
+  background: var(--dark);
+  transform: translateX(-50%);
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--primary);
+  transform: translateX(-50%);
+}
+.reviews {
+  padding: 1rem;
 }
