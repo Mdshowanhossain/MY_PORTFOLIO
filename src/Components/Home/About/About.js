@@ -35,13 +35,6 @@ const About = () => {
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="far fa-envelope"></i></a>
-                            {/* <a href="#"><img src="./images/gmail.png" alt="" /></a>
-                            <a href="#"><img src="./images/twt.png" alt="" /></a>
-                            <a href="#"><img src="./images/wht.png" alt="" /></a>
-                            <a href="#"><img src="./images/wht.png" alt="" /></a> */}
-                            {/* <a href="#"><img src="./images/ph-1.png" alt="" /></a> */}
-                            {/* <a href="#"><img src="./images/ph-1.png" alt="" /></a> */}
-
                         </div>
                     </div>
                 </div>

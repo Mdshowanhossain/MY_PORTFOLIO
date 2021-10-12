@@ -1,0 +1,91 @@
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: var(--pure);
+}
+.skill_section {
+  margin: 0 12rem;
+}
+.content-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+.content-title + p {
+  font-family: "Lato", sans-serif;
+  color: var(--ternary);
+  line-height: 1.9;
+}
+.col_left {
+  position: relative;
+  width: 46%;
+}
+.col_right {
+  position: relative;
+  width: 46%;
+}
+.col_right .bar {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.col_right .bar .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.col_right .bar .info span {
+  font-size: 12px;
+  font-weight: 500;
+}
+.line {
+  position: relative;
+  width: 100%;
+  height: 0.5rem;
+  background: var(--pure);
+  border-radius: 2px;
+}
+.line:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+.col_right .bar .html::before {
+  width: 95%;
+  background: #e45126;
+}
+.col_right .bar .css::before {
+  width: 80%;
+  background: var(--primary);
+  /* background: var(--primary); */
+}
+.col_right .bar .javascript::before {
+  width: 70%;
+  background: #efd81d;
+}
+.col_right .bar .typescript::before {
+  width: 60%;
+  background: #0076c6;
+}
+.col_right .bar .react::before {
+  width: 80%;
+  background: #5ed4f3;
+}
+.col_right .bar .mongodb::before {
+  width: 90%;
+  background: #4da53f;
+}
+.col_right .bar .mysql::before {
+  width: 60%;
+  background: #ea8c10;
+}
+.col_right .bar .node::before {
+  width: 70%;
+  background: #83c925;
+}

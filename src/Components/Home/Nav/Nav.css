@@ -1,0 +1,20 @@
+nav .left_side a {
+  color: var(--pure);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+nav .left_side a:hover {
+  color: var(--primary);
+}
+
+nav {
+  padding: 2rem 0;
+}
+nav .logo {
+  margin-right: 8rem;
+  color: var(--pure);
+}
+nav .logo a {
+}

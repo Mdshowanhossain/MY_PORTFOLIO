@@ -1,0 +1,84 @@
+.t_p_card {
+  padding: 0 12%;
+}
+.p_title {
+  text-align: center;
+  color: var(--ternary);
+  font-family: "Poppins", sans-serif;
+  margin-top: 3rem;
+}
+.p_title h3 {
+  letter-spacing: 0.2rem;
+}
+.p_title h1 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+.p_ {
+  letter-spacing: 0.1rem;
+}
+.all_p_card {
+  margin-top: 6rem;
+}
+.p_search {
+  margin-top: 2rem;
+}
+.p_search .s_project {
+  padding: 0.9rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 0.5rem;
+}
+.p_search .s_project:focus {
+  outline: none;
+}
+
+.p_search i {
+  color: var(--ternary);
+  position: relative;
+  margin-left: 18rem;
+  margin-top: 1rem;
+}
+
+.p_card_img {
+  width: 400px;
+  border: 2px solid var(--ternary);
+  border-radius: 0.5rem;
+}
+.p_card_desc {
+  color: var(--ternary);
+  text-align: center;
+  background: var(--dark);
+  width: 400px;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  border-radius: 0.5rem;
+}
+.p_card_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.p_btn button {
+  background: var(--primary);
+  padding: 1rem;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.p_btn button:hover {
+  background: var(--primary);
+  color: var(--dark);
+  border: 2px solid var(--dark);
+}

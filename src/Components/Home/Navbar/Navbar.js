@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../Nav/Nav';
 import './navbar.css'
 
 
@@ -7,25 +8,7 @@ const Navbar = () => {
         // <!-- HERO & NAV SECTION -->
         <header>
             <div class="container">
-                <nav class="flex items-center justify-between">
-                    <div class="left_side flex items-center">
-                        <div class="logo">
-                            {/* <img src="./images/logo.svg" alt="" /> */}
-                            <h2>SOHAN</h2>
-                        </div>
-                        <div>
-                            <a href="#">Home</a>
-                            <a href="#">About</a>
-                            <a href="#">services</a>
-                            <a href="#">Pages</a>
-                            <a href="#">Blogs</a>
-                        </div>
-                    </div>
-                    <div class="right_side">
-                        <button class="btn btn-primary">Contact</button>
-                    </div>
-                </nav>
-
+                <Nav />
                 <div class="hero flex items-center justify-between">
                     <div class="left_side flex-1 flex justify-center">
                         <img src="./images/profile.png" alt="" />
@@ -51,9 +34,7 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit quidem nemo, beatae
-                            ratione possimus voluptatem harum eius sequi voluptas alias ipsam quis inventore qui, in,
-                            voluptate magni. Quas, voluptas!</p>
+                        <p>Learning new things is one of the skill developing hobbies and I always enjoy learning new things. For this reason I have been learning web design and development for a long time and I have built 10+ projects.To build projects I have to know a lot of new things and I am developing my skill continuously</p>
                         <div>
                             <button class="btn btn-secondary">Download CV</button>
                         </div>
