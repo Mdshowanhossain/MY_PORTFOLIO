@@ -22,7 +22,7 @@ const RecentProjects = () => {
                             <div class="p-circle"></div>
                         </div>
                         <a href="www.youtube.com" target="_blank">
-                            <img class="p-img" src="./images/bg.png" alt="" />
+                            <img class="p-img" src="./images/portfolio.png" alt="" />
                         </a>
                     </div>
                     <div class="p">
@@ -34,7 +34,7 @@ const RecentProjects = () => {
                             <div class="p-circle"></div>
                         </div>
                         <a href="www.youtube.com" target="_blank">
-                            <img class="p-img" src="./images/bg.png" alt="" />
+                            <img class="p-img" src="./images/portfolio.png" alt="" />
                         </a>
                     </div>
                     <div class="p">
@@ -46,7 +46,7 @@ const RecentProjects = () => {
                             <div class="p-circle"></div>
                         </div>
                         <a href="www.youtube.com" target="_blank">
-                            <img class="p-img" src="./images/bg.png" alt="" />
+                            <img class="p-img" src="./images/portfolio.png" alt="" />
                         </a>
                     </div>
                     <div class="p">
@@ -58,7 +58,7 @@ const RecentProjects = () => {
                             <div class="p-circle"></div>
                         </div>
                         <a href="www.youtube.com" target="_blank">
-                            <img class="p-img" src="./images/bg.png" alt="" />
+                            <img class="p-img" src="./images/portfolio.png" alt="" />
                         </a>
                     </div>
                     <div class="p">
@@ -70,7 +70,7 @@ const RecentProjects = () => {
                             <div class="p-circle"></div>
                         </div>
                         <a href="www.youtube.com" target="_blank">
-                            <img class="p-img" src="./images/bg.png" alt="" />
+                            <img class="p-img" src="./images/portfolio.png" alt="" />
                         </a>
                     </div>
                     <div class="p">
@@ -82,7 +82,7 @@ const RecentProjects = () => {
                             <div class="p-circle"></div>
                         </div>
                         <a href="www.youtube.com" target="_blank">
-                            <img class="p-img" src="./images/bg.png" alt="" />
+                            <img class="p-img" src="./images/portfolio.png" alt="" />
                         </a>
                     </div>
 

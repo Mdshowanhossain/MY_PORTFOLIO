@@ -8,14 +8,20 @@ const PCard = () => {
     const [projectsData, setProjectsData] = useState(projectsInfo)
 
 
-
-
     useEffect(() => {
         if (searchProject === '') return;
 
         setProjectsData(() => {
-            projectsInfo.filter((item) => item.name.toLowerCase().match(searchProject.toLowerCase()));
+            // const pdata = projectsInfo.filter((item) => item.name.toLowerCase().match(searchProject.toLowerCase()));
+            // console.log('from useEffect', pdata);
+
+
+            let nay = projectsInfo.filter((data) => data.name == `${searchProject}`)
+            console.log(nay);
+
+            // const projectData = projectsInfo.filter((item) => item.name.toLowerCase()[0].match(searchProject.toLowerCase()));
             // projectsInfo.filter((item) => { item.name.toLocaleLowerCase().match(searchProject.toLocaleLowerCase()) })
+            // console.log(projectData[0]);
         })
 
     }, [searchProject])
@@ -25,14 +31,12 @@ const PCard = () => {
         e.preventDefault();
         setSearchProject(e.target.value);
 
+        console.log('from func', e.target.value);
+
         if (!e.target.value.length > 0) {
             setProjectsData(projectsInfo);
         }
-
     }
-
-
-
 
     return (
         <div className="t_p_card">
@@ -48,37 +52,25 @@ const PCard = () => {
                     </form>
                 </div>
 
-                {searchProject ? '' :
-
-
-                    <div className="p_card_wrapper">
-                        {
-                            projectsData.map((item) => {
-                                return <div className="all_p_card">
-                                    <img className="p_card_img" src={item.img} alt="" />
-                                    <div className="p_card_desc">
-                                        <h1 className="p_">{item.name}</h1>
-                                        <p>{item.desc}</p>
-                                        <div className="p_btn">
-                                            <button>CODE LINK</button>
-                                            <button>LIVE LINK</button>
-                                        </div>
+                {/* {searchProject ? '' : */}
+                <div className="p_card_wrapper">
+                    {
+                        projectsData?.map((item) => {
+                            return <div className="all_p_card" key={item.id} >
+                                <img className="p_card_img" src={item.img} alt="" />
+                                <div className="p_card_desc">
+                                    <h1 className="p_">{item.name}</h1>
+                                    <p>{item.desc}</p>
+                                    <div className="p_btn">
+                                        <button>CODE LINK</button>
+                                        <button>LIVE LINK</button>
                                     </div>
                                 </div>
-                            })
-                        }
-                    </div>
-                }
-                {/* {searchProject ? '' : */}
-
-
-                {/* <div className="p_card_wrapper">
-                    {
-                        projectsData.map((item) => console.log(item))
+                            </div>
+                        })
                     }
-                </div> */}
+                </div>
                 {/* } */}
-
             </div>
         </div>
     );
