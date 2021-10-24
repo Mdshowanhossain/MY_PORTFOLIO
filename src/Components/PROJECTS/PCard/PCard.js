@@ -12,16 +12,8 @@ const PCard = () => {
         if (searchProject === '') return;
 
         setProjectsData(() => {
-            // const pdata = projectsInfo.filter((item) => item.name.toLowerCase().match(searchProject.toLowerCase()));
-            // console.log('from useEffect', pdata);
+            projectsInfo.filter((item) => item.name.toLowerCase().match(searchProject.toLowerCase()));
 
-
-            let nay = projectsInfo.filter((data) => data.name == `${searchProject}`)
-            console.log(nay);
-
-            // const projectData = projectsInfo.filter((item) => item.name.toLowerCase()[0].match(searchProject.toLowerCase()));
-            // projectsInfo.filter((item) => { item.name.toLocaleLowerCase().match(searchProject.toLocaleLowerCase()) })
-            // console.log(projectData[0]);
         })
 
     }, [searchProject])
@@ -52,7 +44,6 @@ const PCard = () => {
                     </form>
                 </div>
 
-                {/* {searchProject ? '' : */}
                 <div className="p_card_wrapper">
                     {
                         projectsData?.map((item) => {
@@ -70,7 +61,6 @@ const PCard = () => {
                         })
                     }
                 </div>
-                {/* } */}
             </div>
         </div>
     );

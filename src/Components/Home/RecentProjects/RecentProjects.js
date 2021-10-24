@@ -33,8 +33,8 @@ const RecentProjects = () => {
                             <div class="p-circle"></div>
                             <div class="p-circle"></div>
                         </div>
-                        <a href="www.youtube.com" target="_blank">
-                            <img class="p-img" src="./images/portfolio.png" alt="" />
+                        <a href="https://nmfsapp.herokuapp.com/" target="_blank">
+                            <img class="p-img" src="./images/p2.png" alt="" />
                         </a>
                     </div>
                     <div class="p">

@@ -9,10 +9,10 @@ const projects = [
     },
     {
         id: 2,
-        name: 'Green CTG',
+        name: 'OUR BLOG',
         desc: 'An app to help people to get an overview of how they can make the city beautiful.',
-        img: 'https://i.postimg.cc/pVcSWx2q/utracker.jpg',
-        live: 'dfad',
+        img: 'https://i.postimg.cc/CKdTbs0g/screencapture-nmfsapp-herokuapp-2021-10-20-21-46-27.png',
+        live: 'https://nmfsapp.herokuapp.com/',
         code: 'asdfasdf',
     },
     {
